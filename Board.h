@@ -15,6 +15,9 @@ namespace Board {
  extern AVR::IOpin B;
  extern AVR::IOpin C;
 
+ extern AVR::IOpin Reset;
+
+ extern AVR::IOpin Button;
 };
 
 #endif	/* BOARD_H */

@@ -12,3 +12,7 @@
 AVR::IOpin Board::A(&PORTC, 6);
 AVR::IOpin Board::B(&PORTC, 5);
 AVR::IOpin Board::C(&PORTC, 4);
+
+AVR::IOpin Board::Reset(&PORTD, 0);
+
+AVR::IOpin Board::Button(&PORTC, 1);
