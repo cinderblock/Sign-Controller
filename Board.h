@@ -15,6 +15,8 @@ namespace Board {
  extern AVR::IOpin B;
  extern AVR::IOpin C;
 
+ extern AVR::IOpin Double;
+
  extern AVR::IOpin Reset;
 
  extern AVR::IOpin Button;

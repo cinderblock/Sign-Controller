@@ -16,7 +16,7 @@ using namespace AVR;
 
 class Display {
 public:
- static constexpr u1 numPixels = 13;
+ static constexpr u1 numPixels = 16;
 private:
  
  inline static u1 exponential(u1);

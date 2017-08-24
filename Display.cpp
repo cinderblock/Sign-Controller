@@ -9,8 +9,8 @@
 
 #include "Display.h"
  
-//                                                 B e r n i e  S  a  n  d  e  r s
-static const u1 MAP[Display::numPixels] PROGMEM = {0,1,2,3,4,5,15,14,13,12,11,10,9};
+//                                                 
+static const u1 MAP[Display::numPixels] PROGMEM = {7,6,5,4,3,2,1,0,15,14,13,12,11,10,9, 8};
 
 void Display::writePixel(u1 pixel, u1 val) {
  SoftwarePWM::getMatchArray()[pgm_read_byte(&MAP[pixel])] = exponential(val);
