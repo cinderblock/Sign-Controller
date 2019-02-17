@@ -11,9 +11,13 @@
 #include <AVR++/IOpin.h>
 
 namespace Board {
+    namespace LED{
+        
+    
  extern AVR::IOpin A;
  extern AVR::IOpin B;
  extern AVR::IOpin C;
+    }; // LED
 
  extern AVR::IOpin Double;
 
